@@ -3,8 +3,8 @@ git config --global user.name "John Doe 2"
 git config --global user.email "john2@example.com"
 git config --list
 git help clone
-git remote -v
-git remote set-url origin http//github.com/repo.git
+git remote -v //Show the remote repository
+git remote set-url origin http//github.com/repo.git //Update to new remote repository
 git diff --cached
 git diff origin/master
 git diff --cached origin/master
