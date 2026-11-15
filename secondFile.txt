@@ -8,3 +8,5 @@ git commit -m "Committing changes"
 git rm removeme.txt tmp/crap.txt
 git mv file_oldname.txt file_newname.txt
 git commit -m "deleting 2 files, renaming 1"
+git commit --amend -m "New commit message"
+git log --pretty=oneline
