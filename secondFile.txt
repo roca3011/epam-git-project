@@ -10,3 +10,5 @@ git mv file_oldname.txt file_newname.txt
 git commit -m "deleting 2 files, renaming 1"
 git revert dd61ab21
 git push origin master
+git commit --amend -m "New commit message"
+git log --pretty=oneline
