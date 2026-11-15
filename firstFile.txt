@@ -1,0 +1,10 @@
+The most useful git commands
+git config --global user.name "John Doe"
+git config --global user.email "john@example.com"
+git config --list
+git help clone
+git remote -v
+git remote set-url origin http//github.com/repo.git
+git diff --cached
+git diff origin/master
+git diff --cached origin/master
