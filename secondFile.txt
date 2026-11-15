@@ -1,0 +1,10 @@
+Count the number of commits
+git rev-list HEAD --count
+git rev-list COMMIT_ID --count
+Make some changes, commit them
+git add changed_file.txt
+git add folder-with-changed-files/
+git commit -m "Committing changes"
+git rm removeme.txt tmp/crap.txt
+git mv file_oldname.txt file_newname.txt
+git commit -m "deleting 2 files, renaming 1"
